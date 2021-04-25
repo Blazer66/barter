@@ -28,11 +28,17 @@ struct Home : View{
         
         VStack{
             
-            Image("logo")
+            Image("Barter 1")
                 .resizable()
                 .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
-                .frame(width: 70, height: 70)
-                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                .frame(width: 200, height: 200)
+            
+            Text("The Barter Shop")
+                .foregroundColor(.green)
+                .font(.system(size: 50))
+                .fontWeight(.bold)
+            
+            
             
             Spacer()
             
